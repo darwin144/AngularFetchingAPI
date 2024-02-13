@@ -16,7 +16,6 @@ const imgUrl = environment.imgUrl;
 export class MovieComponent implements OnInit{
 
   private movieService = inject(MovieService);
-  //movies: any = [];
   movies: MovieDetail[] = [];
 
   ngOnInit(): void {
